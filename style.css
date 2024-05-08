@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    width: 100%;
+}
+.title{
+    height: 38px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 17.5px 17.5px;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    margin-top: 30px;
+}
+.container p{
+    width: 70%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+}
+.container span{
+    color: blueviolet;
+}
+.container input{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: large;
+}
+.container button{
+    width: 22%;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 15px;
+    height: 35px;
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.25s ease;
+}
+.container img{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.container button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+.footer{
+    margin-top: 50px;
+}
+@media(max-width:600px) {
+    .container{
+        width: 100%;
+    }
+    .container p{
+        font-size: 20px;
+        width: 70%;
+    }
+    .container button{
+        font-size: small;
+        width: 30%;
+    }
+}
